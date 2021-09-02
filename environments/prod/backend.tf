@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "gcp-20190909-01-tfstate"
     prefix = "env/prod"
   }
 }
